@@ -3,6 +3,7 @@ package cv.pn.sibs.controllers;
 import cv.pn.sibs.dtos.StockItemDto;
 import cv.pn.sibs.services.interfaces.IStockMovement;
 import cv.pn.sibs.utilities.APIResponse;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +22,7 @@ public class StockMovementController {
         this.iStockMovement = iStockMovement;
     }
 
+    @Operation(summary = "Create stock movement ou update stock")
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.CREATED)
     public ResponseEntity<Object> stockMovement(@RequestBody @Valid StockItemDto dto) {
@@ -30,6 +32,7 @@ public class StockMovementController {
         return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
     }
 
+    @Operation(summary = "get all items in stock")
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.ACCEPTED)
     public ResponseEntity<Object> getStockMovement() {
@@ -39,6 +42,7 @@ public class StockMovementController {
         return new ResponseEntity<>(apiResponse, HttpStatus.ACCEPTED);
     }
 
+    @Operation(summary = "delete stock by id item")
     @DeleteMapping(path = "/{idItem}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.ACCEPTED)
     public ResponseEntity<Object> deleteUser(@PathVariable("idItem") String idItem) {
