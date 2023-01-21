@@ -1,0 +1,232 @@
+2023-01-21 17:57:32.642  INFO 31648 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Starting SIBSApplication using Java 18.0.1 on DESKTOP-BFRHAR1 with PID 31648 (C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1\target\classes started by Adilson Monteiro in C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1)
+2023-01-21 17:57:32.642  INFO 31648 --- [restartedMain] cv.pn.sibs.SIBSApplication               : The following profiles are active: dev
+2023-01-21 17:57:32.689  INFO 31648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-21 17:57:32.689  INFO 31648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-21 17:57:33.294  INFO 31648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21 17:57:33.360  INFO 31648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+2023-01-21 17:57:33.828  INFO 31648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-01-21 17:57:33.832  INFO 31648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-21 17:57:33.832  INFO 31648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-21 17:57:33.898  INFO 31648 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-21 17:57:33.898  INFO 31648 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1209 ms
+2023-01-21 17:57:34.059  INFO 31648 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21 17:57:34.087  INFO 31648 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-01-21 17:57:34.178  INFO 31648 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-21 17:57:34.255  INFO 31648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21 17:57:34.410  INFO 31648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21 17:57:34.420  INFO 31648 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-21 17:57:34.969  INFO 31648 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21 17:57:34.976  INFO 31648 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 17:57:35.073  WARN 31648 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-21 17:57:35.992  INFO 31648 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f5b99f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@43789c0b, org.springframework.security.web.header.HeaderWriterFilter@6d32d258, org.springframework.web.filter.CorsFilter@1a0dbc08, org.springframework.web.filter.CharacterEncodingFilter@15c7bd7d, org.springframework.security.web.authentication.logout.LogoutFilter@1bc6373d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@13416c8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cb7975a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64a04c78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@147437f, org.springframework.security.web.session.SessionManagementFilter@7f4b48da, org.springframework.security.web.access.ExceptionTranslationFilter@47ce8375, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@575844fa]
+2023-01-21 17:57:36.213  WARN 31648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-21 17:57:36.260  INFO 31648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-21 17:57:36.275  INFO 31648 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Started SIBSApplication in 3.929 seconds (JVM running for 4.554)
+2023-01-21 17:57:49.331  INFO 31648 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-21 17:57:49.331  INFO 31648 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-21 17:57:49.331  INFO 31648 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-21 17:58:07.808  INFO 31648 --- [http-nio-8082-exec-1] cv.pn.sibs.controllers.EmailController   : Info log
+2023-01-21 17:58:07.809  WARN 31648 --- [http-nio-8082-exec-1] cv.pn.sibs.controllers.EmailController   : Hey, This is a warning!
+2023-01-21 17:58:07.809 ERROR 31648 --- [http-nio-8082-exec-1] cv.pn.sibs.controllers.EmailController   : Oops! We have an Error. OK
+2023-01-21 17:58:07.809 ERROR 31648 --- [http-nio-8082-exec-1] cv.pn.sibs.controllers.EmailController   : Damn! Fatal error. Please fix me.
+2023-01-21 18:28:35.128  WARN 31648 --- [http-nio-8082-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [113] milliseconds.
+2023-01-21 18:29:03.454  WARN 31648 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Order UN9CO
+2023-01-21 18:29:03.454  WARN 31648 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Item Xiaomi Redmi Note 11 Pro 5G 
+2023-01-21 18:30:04.239  WARN 31648 --- [http-nio-8082-exec-6] c.p.s.s.implementations.OrderImpl        : Stock exist
+2023-01-21 18:30:04.243  WARN 31648 --- [http-nio-8082-exec-6] c.p.s.s.implementations.OrderImpl        : Save Order Item
+2023-01-21 18:30:04.263  WARN 31648 --- [http-nio-8082-exec-6] c.p.s.s.implementations.OrderImpl        : Unavailable exist: false
+2023-01-21 18:30:04.268  WARN 31648 --- [http-nio-8082-exec-6] c.p.s.s.implementations.OrderImpl        : Concluded exist: true
+2023-01-21 18:43:54.588  INFO 31648 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 18:43:54.588  INFO 31648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-21 18:43:54.594  INFO 31648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-21 18:44:10.390  INFO 2728 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Starting SIBSApplication using Java 18.0.1 on DESKTOP-BFRHAR1 with PID 2728 (C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1\target\classes started by Adilson Monteiro in C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1)
+2023-01-21 18:44:10.390  INFO 2728 --- [restartedMain] cv.pn.sibs.SIBSApplication               : The following profiles are active: dev
+2023-01-21 18:44:10.442  INFO 2728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-21 18:44:10.442  INFO 2728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-21 18:44:11.576  INFO 2728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21 18:44:11.638  INFO 2728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2023-01-21 18:44:12.174  INFO 2728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-01-21 18:44:12.184  INFO 2728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-21 18:44:12.184  INFO 2728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-21 18:44:12.251  INFO 2728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-21 18:44:12.251  INFO 2728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1809 ms
+2023-01-21 18:44:12.391  INFO 2728 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21 18:44:12.427  INFO 2728 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-01-21 18:44:12.538  INFO 2728 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-21 18:44:12.609  INFO 2728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21 18:44:12.772  INFO 2728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21 18:44:12.777  INFO 2728 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-21 18:44:13.330  INFO 2728 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21 18:44:13.335  INFO 2728 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 18:44:13.442  WARN 2728 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-21 18:44:14.442  INFO 2728 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32abecb9, org.springframework.security.web.context.SecurityContextPersistenceFilter@762ad33d, org.springframework.security.web.header.HeaderWriterFilter@71f78fae, org.springframework.web.filter.CorsFilter@204b6d81, org.springframework.web.filter.CharacterEncodingFilter@3e36b7e2, org.springframework.security.web.authentication.logout.LogoutFilter@134766c7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@16430573, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a7fe53f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@599f192b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60c3ca3c, org.springframework.security.web.session.SessionManagementFilter@509e633f, org.springframework.security.web.access.ExceptionTranslationFilter@23ed57fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66511bd0]
+2023-01-21 18:44:14.676  WARN 2728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-21 18:44:14.746  INFO 2728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-21 18:44:14.763  INFO 2728 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Started SIBSApplication in 4.736 seconds (JVM running for 5.538)
+2023-01-21 18:44:27.442  INFO 2728 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-21 18:44:27.442  INFO 2728 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-21 18:44:27.447  INFO 2728 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-01-21 18:44:28.120  WARN 2728 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Order UN9CO
+2023-01-21 18:44:28.120  WARN 2728 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item Xiaomi Redmi Note 11 Pro 5G 
+2023-01-21 19:01:23.356  INFO 2728 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 19:01:23.361  INFO 2728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-21 19:01:23.365  INFO 2728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-21 19:01:29.528  INFO 38444 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Starting SIBSApplication using Java 18.0.1 on DESKTOP-BFRHAR1 with PID 38444 (C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1\target\classes started by Adilson Monteiro in C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1)
+2023-01-21 19:01:29.530  INFO 38444 --- [restartedMain] cv.pn.sibs.SIBSApplication               : The following profiles are active: dev
+2023-01-21 19:01:29.594  INFO 38444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-21 19:01:29.594  INFO 38444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-21 19:01:30.294  INFO 38444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21 19:01:30.359  INFO 38444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2023-01-21 19:01:30.846  INFO 38444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-01-21 19:01:30.853  INFO 38444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-21 19:01:30.855  INFO 38444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-21 19:01:30.928  INFO 38444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-21 19:01:30.928  INFO 38444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2023-01-21 19:01:31.083  INFO 38444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21 19:01:31.119  INFO 38444 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-01-21 19:01:31.208  INFO 38444 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-21 19:01:31.268  INFO 38444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21 19:01:31.423  INFO 38444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21 19:01:31.433  INFO 38444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-21 19:01:31.984  INFO 38444 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21 19:01:31.992  INFO 38444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 19:01:32.085  WARN 38444 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-21 19:01:33.109  INFO 38444 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76e509d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a7fe53f, org.springframework.security.web.header.HeaderWriterFilter@51d1d388, org.springframework.web.filter.CorsFilter@32abecb9, org.springframework.web.filter.CharacterEncodingFilter@204b6d81, org.springframework.security.web.authentication.logout.LogoutFilter@33462959, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b2a7039, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c708ff7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ae36995, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e36b7e2, org.springframework.security.web.session.SessionManagementFilter@762ad33d, org.springframework.security.web.access.ExceptionTranslationFilter@582a7165, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@239fd983]
+2023-01-21 19:01:33.323  WARN 38444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-21 19:01:33.368  INFO 38444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-21 19:01:33.382  INFO 38444 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Started SIBSApplication in 4.245 seconds (JVM running for 5.133)
+2023-01-21 19:17:49.575  INFO 38444 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-21 19:17:49.576  INFO 38444 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-21 19:17:49.579  INFO 38444 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-21 19:17:50.322  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Order UN9CO
+2023-01-21 19:17:50.322  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item Xiaomi Redmi Note 11 Pro 5G 
+2023-01-21 19:17:50.329  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item id Order: 8b18ccf0-b732-426c-b3a8-c90e14428c09
+2023-01-21 19:17:50.331  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item id: 8b18ccf0-b732-426c-b3a8-c90e14428c09
+2023-01-21 19:17:50.331  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Status Item: U
+2023-01-21 19:17:50.331  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item exists in order and the status is unavailable
+2023-01-21 19:17:50.331  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Quantity order <= Quantity in Stock
+2023-01-21 19:17:50.346  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Do not exist Unavailable item in order
+2023-01-21 19:18:00.853  INFO 38444 --- [http-nio-8082-exec-1] c.p.s.s.implementations.EmailImpl        : Mail Sent Successfully...
+2023-01-21 19:29:10.142  WARN 38444 --- [http-nio-8082-exec-5] c.p.s.s.implementations.OrderImpl        : Stock exist
+2023-01-21 19:29:10.149  WARN 38444 --- [http-nio-8082-exec-5] c.p.s.s.implementations.OrderImpl        : Save Order Item
+2023-01-21 19:29:10.165  WARN 38444 --- [http-nio-8082-exec-5] c.p.s.s.implementations.OrderImpl        : Save Order Item
+2023-01-21 19:29:10.170  WARN 38444 --- [http-nio-8082-exec-5] c.p.s.s.implementations.OrderImpl        : Unavailable exist: true
+2023-01-21 19:29:10.171  WARN 38444 --- [http-nio-8082-exec-5] c.p.s.s.implementations.OrderImpl        : Concluded exist: true
+2023-01-21 19:30:30.495  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Order EY0UA
+2023-01-21 19:30:30.495  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Item Samsung A51
+2023-01-21 19:30:30.498  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Item id Order: 676411fe-d7c3-4be7-9386-f4bf8dbcb720
+2023-01-21 19:30:30.498  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:30:30.499  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Status Item: C
+2023-01-21 19:30:30.499  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Item id Order: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:30:30.499  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:30:30.499  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Status Item: U
+2023-01-21 19:30:30.499  WARN 38444 --- [http-nio-8082-exec-7] c.p.s.s.i.StockMovementImpl              : Item exists in order and the status is unavailable
+2023-01-21 19:33:52.214  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Order EY0UA
+2023-01-21 19:33:52.214  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item Samsung A51
+2023-01-21 19:33:52.217  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item id Order: 676411fe-d7c3-4be7-9386-f4bf8dbcb720
+2023-01-21 19:33:52.217  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:33:52.217  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Status Item: C
+2023-01-21 19:33:52.217  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item id Order: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:33:52.218  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:33:52.218  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Status Item: U
+2023-01-21 19:33:52.218  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Item exists in order and the status is unavailable
+2023-01-21 19:33:52.218  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Quantity order <= Quantity in Stock
+2023-01-21 19:33:52.224  WARN 38444 --- [http-nio-8082-exec-1] c.p.s.s.i.StockMovementImpl              : Do not exist Unavailable item in order
+2023-01-21 19:34:01.491  INFO 38444 --- [http-nio-8082-exec-1] c.p.s.s.implementations.EmailImpl        : Mail Sent Successfully...
+2023-01-21 19:53:23.783  INFO 38444 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 19:53:23.788  INFO 38444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-21 19:53:23.794  INFO 38444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-21 19:53:29.950  INFO 49080 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Starting SIBSApplication using Java 18.0.1 on DESKTOP-BFRHAR1 with PID 49080 (C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1\target\classes started by Adilson Monteiro in C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1)
+2023-01-21 19:53:29.952  INFO 49080 --- [restartedMain] cv.pn.sibs.SIBSApplication               : The following profiles are active: dev
+2023-01-21 19:53:30.010  INFO 49080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-21 19:53:30.011  INFO 49080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-21 19:53:30.729  INFO 49080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21 19:53:30.793  INFO 49080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2023-01-21 19:53:31.233  INFO 49080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-01-21 19:53:31.238  INFO 49080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-21 19:53:31.239  INFO 49080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-21 19:53:31.314  INFO 49080 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-21 19:53:31.315  INFO 49080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2023-01-21 19:53:31.456  INFO 49080 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21 19:53:31.483  INFO 49080 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-01-21 19:53:31.607  INFO 49080 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-21 19:53:31.667  INFO 49080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21 19:53:31.804  INFO 49080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21 19:53:31.815  INFO 49080 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-21 19:53:32.305  INFO 49080 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21 19:53:32.312  INFO 49080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 19:53:32.405  WARN 49080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-21 19:53:33.262  INFO 49080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ec5917a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bc6373d, org.springframework.security.web.header.HeaderWriterFilter@6fab25d, org.springframework.web.filter.CorsFilter@63c2b1ff, org.springframework.web.filter.CharacterEncodingFilter@52a50bb6, org.springframework.security.web.authentication.logout.LogoutFilter@2b278c7a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e938733, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e282209, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@622f0164, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e361402, org.springframework.security.web.session.SessionManagementFilter@7aa5f0b1, org.springframework.security.web.access.ExceptionTranslationFilter@3652645f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5dc850ec]
+2023-01-21 19:53:33.447  WARN 49080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-21 19:53:33.481  INFO 49080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-21 19:53:33.490  INFO 49080 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Started SIBSApplication in 3.932 seconds (JVM running for 5.092)
+2023-01-21 19:53:58.268  INFO 49080 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-21 19:53:58.268  INFO 49080 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-21 19:53:58.269  INFO 49080 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-21 19:53:58.665  WARN 49080 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Stock exist
+2023-01-21 19:53:58.680  WARN 49080 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Save Order Item
+2023-01-21 19:53:58.696  WARN 49080 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Stock exist
+2023-01-21 19:53:58.696  WARN 49080 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Save Order Item
+2023-01-21 19:53:58.700  WARN 49080 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Unavailable exist: true
+2023-01-21 19:53:58.700  WARN 49080 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Concluded exist: true
+2023-01-21 19:57:06.381  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Order 7G4FM
+2023-01-21 19:57:06.382  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Item Samsung A51
+2023-01-21 19:57:06.384  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Item id Order: 676411fe-d7c3-4be7-9386-f4bf8dbcb720
+2023-01-21 19:57:06.384  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:57:06.384  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Status Item: C
+2023-01-21 19:57:06.384  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Item id Order: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:57:06.384  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 19:57:06.385  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Status Item: U
+2023-01-21 19:57:06.385  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Item exists in order and the status is unavailable
+2023-01-21 19:57:06.385  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Quantity order <= Quantity in Stock3
+2023-01-21 19:57:06.390  WARN 49080 --- [http-nio-8082-exec-4] c.p.s.s.i.StockMovementImpl              : Do not exist Unavailable item in order
+2023-01-21 19:57:14.919  INFO 49080 --- [http-nio-8082-exec-4] c.p.s.s.implementations.EmailImpl        : Mail Sent Successfully...
+2023-01-21 20:04:01.391  INFO 49080 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 20:04:01.397  INFO 49080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-21 20:04:01.401  INFO 49080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-21 20:04:10.615  INFO 31756 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Starting SIBSApplication using Java 18.0.1 on DESKTOP-BFRHAR1 with PID 31756 (C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1\target\classes started by Adilson Monteiro in C:\Users\Adilson Monteiro\IdeaProjects\SIBS-1)
+2023-01-21 20:04:10.617  INFO 31756 --- [restartedMain] cv.pn.sibs.SIBSApplication               : The following profiles are active: dev
+2023-01-21 20:04:10.681  INFO 31756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-21 20:04:10.682  INFO 31756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-21 20:04:11.466  INFO 31756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-21 20:04:11.528  INFO 31756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2023-01-21 20:04:11.994  INFO 31756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-01-21 20:04:12.004  INFO 31756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-21 20:04:12.004  INFO 31756 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-21 20:04:12.075  INFO 31756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-21 20:04:12.075  INFO 31756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1392 ms
+2023-01-21 20:04:12.237  INFO 31756 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-21 20:04:12.273  INFO 31756 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-01-21 20:04:12.393  INFO 31756 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-21 20:04:12.459  INFO 31756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-21 20:04:12.649  INFO 31756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-21 20:04:12.659  INFO 31756 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-21 20:04:13.244  INFO 31756 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-21 20:04:13.251  INFO 31756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-21 20:04:13.368  WARN 31756 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-21 20:04:14.483  INFO 31756 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66a1506c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1975d14e, org.springframework.security.web.header.HeaderWriterFilter@1c8b32d3, org.springframework.web.filter.CorsFilter@3507982a, org.springframework.web.filter.CharacterEncodingFilter@6be5e49, org.springframework.security.web.authentication.logout.LogoutFilter@41d2a1ad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1b9a4719, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@134766c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fa5ba63, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ce4f48, org.springframework.security.web.session.SessionManagementFilter@4026b145, org.springframework.security.web.access.ExceptionTranslationFilter@599f192b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15ce0510]
+2023-01-21 20:04:14.726  WARN 31756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-21 20:04:14.772  INFO 31756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-21 20:04:14.782  INFO 31756 --- [restartedMain] cv.pn.sibs.SIBSApplication               : Started SIBSApplication in 4.553 seconds (JVM running for 5.39)
+2023-01-21 20:04:26.574  INFO 31756 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-21 20:04:26.574  INFO 31756 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-21 20:04:26.574  INFO 31756 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-21 20:04:27.272  WARN 31756 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Stock exist
+2023-01-21 20:04:27.297  WARN 31756 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Save Order Item
+2023-01-21 20:04:27.333  WARN 31756 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Stock exist
+2023-01-21 20:04:27.333  WARN 31756 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Save Order Item
+2023-01-21 20:04:27.339  WARN 31756 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Unavailable exist: true
+2023-01-21 20:04:27.339  WARN 31756 --- [http-nio-8082-exec-1] c.p.s.s.implementations.OrderImpl        : Concluded exist: true
+2023-01-21 20:04:50.680  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Quantity Stock: 13
+2023-01-21 20:04:50.698  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Order 547XW
+2023-01-21 20:04:50.698  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Item Samsung A51
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Item id Order: 676411fe-d7c3-4be7-9386-f4bf8dbcb720
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Status Item: C
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Item id Order: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Item id: 85883050-47e0-45ea-a885-70aa7cfe34d5
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Status Item: U
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Item exists in order and the status is unavailable
+2023-01-21 20:04:50.703  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Quantity order: 8
+2023-01-21 20:04:50.718  WARN 31756 --- [http-nio-8082-exec-2] c.p.s.s.i.StockMovementImpl              : Do not exist Unavailable item in order
+2023-01-21 20:05:04.442  INFO 31756 --- [http-nio-8082-exec-2] c.p.s.s.implementations.EmailImpl        : Mail Sent Successfully...
