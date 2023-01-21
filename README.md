@@ -17,7 +17,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 4. Step: Edit file `application-dev.properties` and change the password created in step 2.
 	
-	* spring.datasource.password=<password database>
+`spring.datasource.password=<password database>`
 	
 5. Step: Create app end generate the password in your google account 
 	
@@ -29,4 +29,13 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 `spring.mail.username=<add your email>`
 	
 `spring.mail.password=<password generate in your google account>`
+
+6. Step: Run the application 
+7. Access the Swagger Api documentation in browser
+``` http://localhost:8082/swagger-ui.html ```
+8. Put the username and password defenid in `application-dev.properties` file
+```
+username=SIBS
+password=SIBSDEV#MS#23
+```
 	
