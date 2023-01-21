@@ -15,7 +15,7 @@ CREATE DATABASE SIBS_1
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 4. Step: Edit file `application-dev.properties` and change the password created in step 2.
-	spring.datasource.password=<password>
+	spring.datasource.password=<password database>
 	
 5. Step: Create app end generate the password in your google account 
 	
