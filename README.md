@@ -31,11 +31,11 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 `spring.mail.password=<password generate in your google account>`
 
 6. Step: Run the application 
-7. Access the Swagger Api documentation in browser
+7. Access the Swagger Api documentation in browser, it has all the information to call the APIs 
 ``` http://localhost:8082/swagger-ui.html ```
-8. Put the username and password defenid in `application-dev.properties` file
+8. Step: Put the username and password defenid in `application-dev.properties` file
 ```
 username=SIBS
 password=SIBSDEV#MS#23
 ```
-	
+9. Step: After you access a swagger API, create a users and items only after create a order or moviment stock	
