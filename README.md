@@ -2,7 +2,7 @@
 
 Instructions on how to run the project and how to call the routes.
 
-1. Step: Clone the project [TechnicalExerciseSibs](https://pages.github.com/](https://github.com/AdilsonRTB/TechnicalExerciseSibs.git). in your localhost.
+1. Step: Clone the project [TechnicalExerciseSibs](https://github.com/AdilsonRTB/TechnicalExerciseSibs.git). in your localhost.
 2. Step: Use editor Sql postgresql as `PgAdmin or DBeaver` ou another editor to run the next script to create a new database.
 ```
 CREATE DATABASE SIBS_1
