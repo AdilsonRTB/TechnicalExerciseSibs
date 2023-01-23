@@ -38,4 +38,4 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 username=SIBS
 password=SIBSDEV#MS#23
 ```
-9. Step: After you access a swagger API, create a users and items only after create a order or moviment stock	
+9. Step: After access a swagger API, create a users and items only after create a order or movement stock	
